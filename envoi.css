@@ -1,0 +1,41 @@
+body{
+    background-image: url('image/fond.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;}
+#cv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.462);
+    border-radius:10px 10px 10px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(255, 255, 255);}
+
+p{
+    text-decoration: underline;}
+
+input{
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(227, 227, 227);}
+
+.inputs{width:150px;
+    background-color: red;
+border: solid 5px black}
+
+button{
+    width:150px;
+    margin-left: 75px;
+    font-weight: bold;
+    background-color: cyan;
+    color:blue ;
+    text-decoration: none;}
+
+button:hover{
+    cursor: pointer;}
